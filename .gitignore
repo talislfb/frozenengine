@@ -1,32 +1,36 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
 # Prerequisites
 *.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
 
 # Precompiled Headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Compiled files
+*.slo
+*.lo
+*.o
+*.obj
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
+
+# Build results
+[Bb]in/
+FrozenEditor/obj/
+
+# Visual Studio 2015 cache/options directory
+.vs/
